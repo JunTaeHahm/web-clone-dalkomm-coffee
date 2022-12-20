@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/8713242aa2.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/sub2.css" />
+    <title>달콤커피 | 문의하기</title>
+  </head>
+  <body>
+    <div id="skipNavi">본문바로가기</div>
+    <div id="wrap">
+      <!-- header -->
+      <header id="header"></header>
+      <!-- //header -->
+      <hr />
+      <!-- main -->
+      <main id="container">
+        <!-- content1 -->
+        <div class="content1">
+          <div class="content1_inner">
+            <p class="path">
+              <a href="#">홈</a><span>&middot;</span><span class="curr">문의하기</span>
+            </p>
+            <div class="title">
+              <h2>문의하기</h2>
+              <p>필수입력 사항입니다.</p>
+            </div>
+            <form action="/" method="post">
+              <legend class="blind">문의하기</legend>
+              <fieldset>
+                <span class="name">
+                  <label for="name">성함(Name)<span>*</span></label>
+                  <input type="text" id="name" placeholder="성함을 입력해 주세요." />
+                </span>
+                <span class="phone">
+                  <label for="phone">연락 받으실 번호(Phone Number)<span>*</span></label>
+                  <input type="tel" id="phone" placeholder="휴대폰 번호를 입력해 주세요." />
+                </span>
+                <span class="mail">
+                  <label for="mail">연락 받으실 메일(E-mail)<span>*</span></label>
+                  <input type="tel" id="mail" placeholder="메일을 입력해 주세요." />
+                </span>
+                <span class="category">
+                  <label for="category">문의 종류</label>
+                  <select id="category">
+                    <option>선택해 주세요.</option>
+                    <option>문의</option>
+                    <option>칭찬</option>
+                    <option>제안</option>
+                    <option>불만</option>
+                  </select>
+                </span>
+                <span class="question">
+                  <label for="question">문의 내용(Questions)<span>*</span></label>
+                  <textarea
+                    id="question"
+                    cols="30"
+                    rows="1"
+                    placeholder="매장 관련 문의의 경우, 꼭 지점명을 작성해 주세요."></textarea>
+                  <p class="gray">
+                    <span>English Service :</span> dk_global@dalkomm.com / +82-70-5096-7133
+                  </p>
+                </span>
+                <span class="agree">
+                  <p class="title">개인정보 수집·이용에 대한 안내(필수 수집·이용 항목)</p>
+                  <p class="info">
+                    문의주신 내용의 답변을 위하여 고객님의 개인정보를 수집합니다. 개인정보 수집에
+                    동의하신 분에 한하여 문의 접수가 가능합니다.<br />수집하는 개인정보 항목 : 이름
+                    / 연락처 / 이메일
+                  </p>
+                  <p class="gray">
+                    Please agree to collect personal information to answer the question.<br />
+                    We collect your personal information is Name, Phone Number and E-mail Address.
+                  </p>
+                  <span class="radio">
+                    <input type="checkbox" id="agree" />
+                    <label for="agree">동의합니다.</label>
+                  </span>
+                </span>
+              </fieldset>
+            </form>
+            <div class="button">
+              <button type="submit">문의글 전송하기</button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewbox="0 0 24 24"
+                class="svg">
+                <path fill="rgba(0,0,0,0)" d="M0 0H24V24H0z"></path>
+                <path
+                  class="in-arr"
+                  d="M418 3436l-1.41 1.41 5.58 5.59H410v2h12.17l-5.58 5.59L418 3452l8-8z"
+                  transform="translate(-406 -3432)"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- //main -->
+      <hr />
+      <!-- footer -->
+      <footer id="footer"></footer>
+      <!-- //footer -->
+    </div>
+  </body>
+</html>
